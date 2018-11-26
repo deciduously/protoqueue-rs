@@ -1,0 +1,9 @@
+[package]
+authors = ["deciduously <ben@deciduously.com>"]
+name = "protoqueue-rs"
+version = "0.1.0"
+[dependencies]
+actix = "0.7"
+actix-web = "0.7"
+log = "0.4"
+pretty_env_logger = "0.2"
