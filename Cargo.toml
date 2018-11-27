@@ -2,6 +2,9 @@
 authors = ["deciduously <ben@deciduously.com>"]
 name = "protoqueue-rs"
 version = "0.1.0"
+[[bin]]
+name = "protoqueue-rs"
+path = "src/backend/main.rs"
 [dependencies]
 actix = "0.7"
 actix-web = "0.7"
